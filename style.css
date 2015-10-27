@@ -1,0 +1,474 @@
+body{ font: 12pt; font-family: sans-serif; font-size: 12px; margin-top:0px;
+	  font-family: "ＭＳ ゴシック",sans-serif; color:#454545; 
+	}
+ 
+ul{list-style:none;}
+
+img {border:0;}
+
+table{border:none;}
+
+/* 最大枠 ================================================================================== */
+
+#container{width:900px; height:100%; margin:0 auto; /*border-top:solid 10px #1E252F; */
+		  border-bottom:1px solid; border-left:1px solid #4D5E79; border-right:1px solid #4D5E79;
+		  box-shadow: 15px 0px 15px -5px #CCCCCC; /*background-color:#FFFFCC;*/
+		  }
+
+
+/* ヘッダー================================================================================= */
+
+#header{ width:900px; height:100%; margin:0;}
+
+#header .head1 { height:100%; margin:0; }
+
+ .border{margin:0 0 0 0; padding:0 0 0 0; border-bottom:1px solid #fff000; background-color:#1E252F; 
+        height:14px;}
+
+ .logo a{float:left; background:url("images/logo2.jpg") no-repeat; margin:5px 0 0 5px; 
+        width:280px; height:46px; text-indent:-9999px; display:block; }
+ 
+
+ .head1 ul{ float:right; position:relative; /*top:16px;*/ list-style:none; margin:15px 0 0 0;}
+ 
+				  
+ .head1 ul li{float:left; margin-right:30px; padding-left:20px; padding-right:15px;
+ 			 background:url("images/redsquare.jpg") no-repeat ;
+ 			background-position: center left; vertical-align:middle; line-height:25px;}
+  			  
+ .head1 ul li a{text-decoration:none; display:block; color: #454545;} /*#454545はグレー*/
+
+ .head1 ul li a:hover{ background-color:#D4D4D4;}
+ 
+ .head1 ul li a:visited{color:#454545;}
+
+
+#header .navi{/*background-color:#993399; */
+			clear: both;
+			border-top:solid 1px; 
+			border-bottom:solid 3px  #cccccc; 
+			width:900px;
+			height:40px; 
+/*			text-indent:-9999px;*/
+			overflow:hidden;
+			}
+
+ .navi ul{  margin:0px; padding:0;list-style:none; } 
+ 
+ .navi ul li{float:right; width:110px; height:43px;}
+  
+ .navi ul li a { float:right; display:block;  width:110px; height:40px; margin:0; text-indent:-9999px;}
+
+ .navi ul li.bt_home a { float:right; background:url("images/navibt1_gray.jpg") no-repeat;}
+ 
+ .navi ul li.bt_home a:hover  { float:right; background:url("images/navibt1B_gray.jpg") no-repeat; }
+
+ .navi ul li.bt_works a {float:right;  background:url("images/navibt2_gray.jpg") no-repeat; }
+ 								  
+ .navi ul li.bt_works a:hover {float:right;  background:url("images/navibt2B_gray.jpg") no-repeat; }								  
+
+ .navi ul li.bt_curworks a{float:right; background:url("images/navibt3_gray.jpg") no-repeat; }
+ 									 
+ .navi ul li.bt_curworks a:hover{float:right; background:url("images/navibt3B_gray.jpg") no-repeat; }
+
+ .navi ul li.bt_aboutus a {float:right; background:url("images/navibt4_gray.jpg") no-repeat;}
+  
+ .navi ul li.bt_aboutus a:hover {float:right; background:url("images/navibt4B_gray.jpg") no-repeat;}
+  
+ 				
+
+/* メイン画像 ================================================================================= */
+
+.main_image{ clear:both; background:url("images/top_mainimage.jpg") no-repeat; 
+			border-bottom:1px solid #808080; margin:0 ; width:900px; height:320px; }
+
+/* メインコンテンツ =========================================================================== */
+
+#maincontents{margin:0; width:100%; height:100%; border-bottom:0px solid #1E252F; 
+				/*background-color:#9933FF;*/}
+
+/* 事業内容 ===================================================================================== */
+ .works{float:left; overflow:hidden; width:75%; height:100%; margin:0 ; padding:10px;
+		 border-right:1px solid #666666; /*background-color:#CC3333;*/ }
+	
+
+ /*.works_title_m{background:url("images/workstitle1d.jpg") no-repeat; border-bottom: solid 0 #99ccff; 
+ 				height:30px; padding-left:10px; margin:0 0 0 5px; text-indent:-9999px;}*/
+ 				
+ .works_title_m{/*background:url("images/top_worksbar_new.jpg") no-repeat;*/ 
+ 				background:url("images/top_worksbar2.jpg") no-repeat;border-bottom: solid 0 #99ccff; 
+ 				height:35px; padding-left:10px; margin:0px; text-indent:-9999px;}
+
+/* .works ul.ul_works{ line-height:120px; list-style-type:none;}
+
+ .works ul.ul_works li{ margin-top:15px; margin-right:15px; background-position:center left; 
+ 						border:1px solid #ffffff;
+ 						text-indent:170px; vertical-align:middle; color: #ffffff;
+ 					   }
+ 
+  ul.ul_works li.works_li1{background: url("images/case_ecokaneko1.jpg") no-repeat;
+ 						 background-color: #333333; }
+ 						   
+ ul.ul_works li.works_li2{background: url("images/solarpic_5s.jpg") no-repeat;
+ 						 background-color: #333333; }
+  
+ ul.ul_works li.works_li3{background: url("images/solarpic_5s.jpg") no-repeat;
+ 						 background-color: #333333; }
+*/ 
+ 
+ .ul_works ul{margin:0 ; padding:0; border:0px solid; width:100%; height:100%;} 
+ 
+ .ul_works ul li{float:left; width:183px; height:183px;  padding:10px 15px ;}
+ 
+ .ul_works ul li a {display:block; width:183px; height:183px;}
+
+
+/* .ul_works ul li.work1 a {float:left; background:url("images/lsbanner1.jpg") no-repeat; 								 
+ 					text-indent:-9999px; }*/
+ 					
+ .ul_works ul li.work1 a {float:left; background:url("images/lsbanner_icon2.jpg") no-repeat; 								 
+ 					text-indent:-9999px; }
+ 					
+ 
+ .ul_works ul li.work1 a:hover {filter:alpha(opacity=80);opacity:0.8;}
+
+/* .ul_works ul li.work2 a {float:left; background:url("images/sgbanner.jpg") no-repeat; 									 
+ 					text-indent:-9999px; }*/
+ 
+ .ul_works ul li.work2 a {float:left; background:url("images/sgbanner_icon.jpg") no-repeat; 									 
+ 					text-indent:-9999px; }
+ 
+  
+ .ul_works ul li.work2 a:hover  {filter:alpha(opacity=80);opacity:0.8;}
+
+/* .ul_works ul li.work3 a {float:left; background:url("images/wmbanner.jpg") no-repeat; 									 
+ 					text-indent:-9999px; }*/
+ 
+ .ul_works ul li.work3 a {float:left; background:url("images/wmbanner_icon.jpg") no-repeat; 									 
+ 					text-indent:-9999px; }
+
+
+ .ul_works ul li.work3 a:hover {filter:alpha(opacity=80);opacity:0.8;}
+ 
+ 
+ 
+/* .test ul{ margin:0px; border:1px solid #CC0000; width:560px; height:500px;}
+
+  .test ul li{width:181px; height:301px; display:block;}
+ 			  
+ 			
+  .test ul li.test1 {float:left; background: url("images/lsbanner1.jpg") no-repeat; text-indent:-9999px;}
+ 
+  .test ul li.test2 {float:left; background: url("images/pgbanner.jpg") no-repeat;text-indent:-9999px;}
+  
+  .test ul li.test3 {float:left; background: url("images/wmbanner.jpg") no-repeat;text-indent:-9999px;}
+ */
+ 
+  .news_title{float:left; background:url("images/top_news_bar4.jpg") no-repeat;/* background-color:#99FFFF;*/ padding-left:0px; 
+  			width:100%; height:35px; margin:0; padding:0; text-indent:-9999px;}
+  			
+  .news_ul li{margin:0; padding:0 0;}
+  
+  
+
+/* 最新事例===================================================================================== */
+
+.case{float:left; margin:0; padding:10px 5px; width:190px; height:100%; border-left: solid 0px #666666 /*#cccccc*/ ;}
+
+ /*.case_title_m{background:url("images/casetitle2a.jpg") no-repeat;  
+ 					border-bottom: solid 0px #00cc99 ; line-height:30px; margin:0; 
+ 					 text-indent:-9999px;}*/
+
+.case_title_m{/*background:url("images/top_casebar_new.jpg") no-repeat;*/
+			background:url("images/top_casebar2.jpg") no-repeat;  
+			border-bottom: solid 0px #00cc99 ; line-height:35px; margin:0 0 0 0; 
+			text-indent:-9999px;}
+
+.case ul{margin:10px 0 0 0; padding:0; border:0px solid ;} 
+
+.case ul li {padding: 0 0 5px 0 ;}
+
+.case ul li a{ margin:0 0 0 0; padding:0px 0 0 0 ;  text-align:center; display:block; border:0px solid; height:45px;}
+ 
+.case ul li.case_li1 a{background:url("images/lsbanner_wide.jpg") no-repeat;background-position:center; text-indent:-9999px;
+						padding:0;}
+ 
+.case ul li.case_li1 a:hover{filter:alpha(opacity=80);opacity:0.8;}
+ 
+.case ul li.case_li2 a{background:url("images/sgbanner_wide.jpg") no-repeat; background-position:center; text-indent:-9999px;}
+ 
+.case ul li.case_li2 a:hover{filter:alpha(opacity=80);opacity:0.8;}
+
+.case ul li.case_li3 a {background:url("images/wmbanner_wide.jpg") no-repeat; background-position:center; text-indent:-9999px;}
+
+.case ul li.case_li3 a:hover{filter:alpha(opacity=80);opacity:0.8;}
+
+ .dummy{heigt:350px;}
+
+.case ul.banner {margin:60px 0 0 0; padding:0; border-top:1px solid #808080;}
+
+.banner ul li a{ margin:0 0 0 0; /*padding-top:110px;*/ padding-bottom:10px;text-align:center; display:block; border:0px solid; 
+ 				background-color:#99CCCC; height:45px;}
+ 
+.case ul.banner li.banner_li1 a{background:url("images/wmqbanner.jpg") no-repeat;background-position:center; text-indent:-9999px;
+								margin:5px 0;}
+
+/* 事例詳細ページ============================================================================== */
+
+.project_name{ margin:0; padding:3px; background-color:#9966FF ;}
+
+/* 縦列Ver （表と地図並列）
+
+.pics{width:100% auto; padding:10px; text-align: left;}
+
+.detail{ float: left; margin:5px;}
+
+.title {background-color: #9999FF; width:98%; margin:auto; line-height: 1.5em;}
+
+.detail table { border:1px solid ; border-collapse: collapse; 
+				line-height:2em; margin: 0;}
+
+table tr th {background-color:#B1E0FA; text-align: right; border:1px solid; width:30%;}
+
+table tr td {text-align: left; border:1px solid ; width:70%; padding:5px;}
+
+.map{margin:5px; border:1px solid #66CCCC; text-align: center; float:left;}
+
+*/
+
+
+/* 2列 Ver */
+
+.pics{padding:10px; margin:10px auto; text-align:center; background-color: #CDE2FC; width:70%;}
+
+.title {/*background-color: #9999FF; border-top:1px solid #494949;*/ border-bottom:1px solid #CAD8F4;
+		border-left:4px solid #0D7DFB;
+		width:97%; margin:10px auto; line-height: 2em; padding:5px;}
+		
+.case_title_c {background:url("images/workstitlebar_wm2.jpg") no-repeat;  
+ 					border-bottom: solid 0px #00cc99 ; line-height:50px; margin:5px; 
+ 					 text-indent:-9999px;}
+
+.detail{ float:left; width:55%; margin:5px; font-size: 1.2em; }
+
+.detail table { border:1px solid #0072A8; border-collapse: collapse; width:90%; height:250px;
+				margin:10px 15px; line-height:2em;}
+
+.detail table tr th {background-color:#B1E0FA; text-align: right; border-bottom:1px solid #0072A8; border-top:1px solid #0072A8; 
+			width:30%;}
+
+.detail table tr td {text-align: left; border-bottom:1px solid #0072A8;  border-top:1px solid #0072A8; width:70%; padding:5px;}
+
+.map{ width:40%; float:left; margin:5px;}
+
+.map iframe{width:300px; height:300px; border:1px solid #0072A8; margin:5px;}
+
+
+/*事業内容 --------------------------------------------------------------------------------- */
+
+#works_menu{ float:left; width:22%; height:100%; margin:5px 0 0 5px; }
+
+
+.menu_title {vertical-align:middle; text-align:left; text-indent:20px; line-height: 50px;
+			margin: 0; padding:0 0; border-left: 4px solid #1D37CB;border-collapse: collapse;
+			letter-spacing:0.3em; background-color:/*#3495CD*/#0066FF; color: /*#ffffff*/#FFFFFF; font-size:1.5em;}						
+
+
+#works_menu ul.menulist{margin:0 0; padding:0; border: 0px solid #1D1DA9; list-style-type: none; } 
+
+#works_menu ul.menulist li{ line-height:40px; vertical-align:middle; text-align:left; text-indent:20px;
+					 margin:0 0; padding:0 0; border-bottom: 1px dotted #1D1DA9; border-left:4px solid #546AE7;
+					 border-collapse: collapse; letter-spacing:0.3em;;}
+ 
+#works_menu ul.menulist li a {display:block; /*background-color:#1D1DA9;*/ color:#333333; text-decoration:none;
+ 						 background-color:/*#EEEEFF*/#dbedff; font-size:1.3em;}
+
+#works_menu ul.menulist li a:hover {background-color:#b0c4de; border:0px solid #000099;}
+
+
+
+#works_menu .to_caselist{margin:20px 0 0 20px; padding:0; width:100px; height:30px; background-color:#CCCC99;}
+
+#works_menu .to_caselist a {} 
+
+
+
+.works_exp{width:76%; /*background-color:#FFC4E1;*/ float:left; margin:5px 0 10px 5px; }
+
+.workslist_ls{/*background:url("images/workstitlebar_ls.jpg") no-repeat;*/
+			  background-color:#CFE9FE;text-indent: -9999; width:200px; height:200px;}
+
+
+/*事例一覧 */
+
+/*.select_works{margin:5px; width:300px; height:35px; border:1px solid;}*/
+
+ ul.select_works{margin:10px 5px; padding:0; width:480px; height:35px; list-style-type: none;} 
+
+ ul.select_works li{ width:100px; line-height:30px; vertical-align:middle; text-align:center; 
+					 margin:0 3px; padding:0 ;float:left; border: 1px solid #999999; 
+					 border-collapse: collapse; letter-spacing:0.3em;}
+ 
+ ul.select_works li a {display:block; /*background-color:#1D1DA9;*/ color:#0000CC; text-decoration:none;
+ 						/*background-color:#CFE9FE;*/ }
+
+ul.select_works  li a:hover {background-color:#add8e6;}
+
+
+#case_title_ls {background:url("images/casetitlebar_ls3.jpg") no-repeat; clear:both;
+ 				height:35px; border-bottom: solid 0px #00cc99 ; line-height:35px; margin:20px 0 10px 5px; 
+ 				 text-indent:-9999px;}
+ 				 
+#case_title_sg {background:url("images/casetitlebar_sg2.jpg") no-repeat;  clear:both;
+ 				height:35px; border-bottom: solid 0px #00cc99 ; line-height:35px; margin:20px 0 10px 5px; 
+ 				 text-indent:-9999px;} 				 
+
+#case_title_wm {background:url("images/casetitlebar_wm2.jpg") no-repeat;  clear:both;
+ 				height:35px; border-bottom: solid 0px #00cc99 ; line-height:35px; margin:20px 0 10px 5px; 
+ 				 text-indent:-9999px;}
+ 				 
+#case_title_oth {background:url("images/casetitlebar_oth.jpg") no-repeat;  clear:both;
+ 				height:35px; border-bottom: solid 0px #00cc99 ; line-height:35px; margin:20px 0 10px 5px; 
+ 				 text-indent:-9999px;}
+
+ 				 
+ 				 
+.case_data{ width:98%; height:400px; border-bottom:1px #330033 dotted; margin:0 0 0 10px; clear:both;}
+
+.case_data .detail_tbl table {width:350px; /*height:90%;*/ float:left; border:1px solid #0072A8; border-collapse: collapse;  
+								margin: 0 0 ; }
+
+.case_data .detail_tbl table tr th {width:35%; background-color:#DAFAFE; text-align: right; border-bottom:1px solid #0072A8;
+									 border-top:1px solid #0072A8; border-right:1px solid #0072A8; }
+
+.case_data .detail_tbl table tr td {line-height:30px; text-align: left; border-bottom:1px solid #0072A8;  
+									border-top:1px solid #0072A8; width:75%;  padding:0; }
+
+.case_data .detail_pic{float:left; width:500px; height:auto; margin:0 0 0 10px;}
+
+/* 会社案内ページ ===============================================================*/
+
+#profile {border:0px solid ; width:97%; margin:20px 10px; border-bottom:1px dotted #9492FA;} 
+
+#profile table {border-top:2px solid #0072A8; border-bottom:2px solid #0072A8; width:85%; line-height:3em; 
+				border-collapse: collapse; margin:20px auto;}
+
+#profile table tr th{border-bottom:1px solid #D5D5D5; border-right:1px solid #D5D5D5;width:20%; 
+					text-align:left; background-color:#D1FEFC; text-indent:15px;}
+
+#profile table tr td{border-bottom:1px solid #D5D5D5; width:80%; padding-left:10px; font-size:1.1em;}
+
+#location {border:0px solid ; width:97%; margin: 20px 10px;}
+
+#location img {margin:10px auto; border:1px solid; display:block;}
+
+#location p.comment{ margin:10px auto; padding-left:10px; line-height:2em; font-size:1.1em; width:500px;}
+
+.case_title_prof1 {background:url("images/proftitlebar_cmp2.jpg") no-repeat;  clear:both;
+ 				border-bottom: solid 0px #00cc99 ; line-height:30px; margin:0 0 5px 5px; 
+ 				 text-indent:-9999px;}
+
+.case_title_prof2 {background:url("images/proftitlebar_loca2.jpg") no-repeat;  clear:both;
+ 				border-bottom: solid 0px #00cc99 ; line-height:30px; margin:0x 0 5px 5px; 
+ 				 text-indent:-9999px;}
+					 
+
+/* 事業説明ページ 共通 =========================================================================== */
+
+.desc{ float: left; width:97%;  /*background-color:#F0D0E9;*/ margin:0 0;
+		color:#0D09B5; } 
+	 /* メニューありタイプにする場合は100%、サイド画像タイプは70%と指定する*/
+
+.desc .step_title{ clear:both;  width:100%; background:url("../images/desc_marker_sg.jpg") no-repeat; 
+					 border-bottom:1px dotted #9492FA; font-size:1.5em;
+					 margin: 20px 15px 10px 15px; padding-bottom:5px;}
+				 
+ .step_title img{ vertical-align:middle; margin-right:5px;}
+
+.desc .step_desc{ font-size:1em; color:#454545; margin: 5px 20px; padding:0 5px;line-height:1.5em;
+					}
+
+.desc .step_desc img{font-size:1em; border:1px solid; color:#454545; margin: 5px 20px; line-height:1.5em;}
+
+.desc ul {color:#454545; font-size:1em; margin: 10px 15px 5px 15px; padding:0 5px; line-height:1.5em;}
+
+.ex_pic {margin:5px 0 20px 25px; float: left; }
+
+.ex_pic img{padding:0 30px 0 0;}
+
+/* 物流倉庫ページ================================================================================= */
+
+/*.works_title_ls {background:url("images/workstitlebar_ls4.jpg") no-repeat;  
+ 					border-bottom: solid 0px #00cc99 ; line-height:50px; margin:5px; 
+ 					 text-indent:-9999px;}*/
+ 					 
+.works_title_ls {background: url("images/worklist_bn_ls670.jpg") no-repeat;  width:670px; height:50px;
+					border-bottom: solid 0px #00cc99 ;  margin:0 0 0 10px; text-indent:-9999px;}
+ 					 
+ 					 
+.desc_pic_ls{background:url("images/descpic_ls1.jpg");  float:left; width:20%; height:500px; margin:5px 5px;}
+
+.tocase{margin:10px; clear:both; background-color:#283FD7; color:#ffffff; width:100px; height:30px; 
+		text-align:center;}
+
+/* 太陽光ページ================================================================================= */
+
+/*.works_title_se {background:url("images/workstitlebar_sg3.jpg") no-repeat;  
+ 					border-bottom: solid 0px #00cc99 ; line-height:50px; margin:5px; 
+ 					 text-indent:-9999px;}*/
+
+.works_title_sg {background:url(images/worklist_bn_sg670.jpg) no-repeat; width:670px; height:50px;
+					border-bottom: solid 0px #00cc99 ;  margin:0 0 0 10px; text-indent:-9999px;}
+
+
+.desc_pic_sg{background:url("images/descpic_sg1.jpg");  float:left; width:20%; height:500px; margin:5px 5px;}
+
+/* 洗車場ページ================================================================================= */
+
+/*.works_title_wm {background:url("images/workstitlebar_wm3.jpg") no-repeat;  
+ 					border-bottom: solid 0px #00cc99 ; line-height:50px; margin:5px; 
+ 					 text-indent:-9999px;}*/
+ 					 
+.works_title_wm {background:url("images/worklist_bn_wm670.jpg") no-repeat;  width:670px; height:50px;
+					border-bottom: solid 0px #00cc99 ;  margin:0 0 0 10px; text-indent:-9999px;}
+
+.desc_pic_wm{background:url("images/descpic_wm2.jpg");  float:left; width:20%; height:500px; margin:5px 5px;}
+
+/* フッター ================================================================================= */
+
+ #footer {margin-top:0; padding: 0; background-color:#1E252F; width:900px; height:100px; overflow:hidden;
+		border-top:solid 0px; clear:both;
+		}
+
+ #footer ul{ margin:0 ; padding:0;border:0px solid; background-color:#66FF66;}
+ 
+ #footer ul li{ margin:5px; padding:5px;  border:0px solid; float: left;text-align:center;
+ 				border-left:0px solid #09AEB3; border-right:1px solid #09AEB3;}
+ 
+ #footer ul li a{ text-decoration:none; color:#ffffff;  display:block; width:60px;
+ 				overflow:hidden;}
+ 				
+ #footer ul li a:hover{ color:#0BABC1;}
+ 
+ #footer ul li.to_upper{position:relative; left:50%; overflow:hidden;}
+ 
+
+ .f_line2{clear:both; /*background-color:#ff6666;*/ margin:0; padding:10px; 
+ 			color:#ffffff;line-height:2em;  font-size: 1em; border-top:1px solid #FFFF00;}
+
+.info_area{}
+
+
+
+
+/* 共通 =================================================================================== */
+
+.clear{clear:left;}
+
+.totop{clear:both; width:120px; height:35px; float:right; text-align:center; 
+		margin:10px 30px 0 0; }
+
+.totop a{ display:block; margin:0; text-decoration: none; /*background-color:#99CCFF;*/
+		border: 1px dotted #1D1DA9; font-size:1.2em;}
+
+.totop a:hover{background-color:#99CCFF;}
